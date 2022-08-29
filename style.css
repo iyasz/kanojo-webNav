@@ -1,0 +1,389 @@
+@font-face {
+    font-family: poppins;
+    src: url(Poppins-Medium.ttf);
+}
+
+@font-face {
+    font-family: opp;
+    src: url(Poppins-Light.ttf);
+}
+
+body {
+    height: 3100px;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(240, 240, 240);
+}
+
+.nav-bar {
+    background-image:linear-gradient(rgba(206, 206, 206, 0.1), rgba(230, 230, 230, 0.1)), url(kanojobg.jpg) ;
+    background-size: cover;
+    height: 700px;
+    background-repeat: no-repeat;
+    
+}
+
+.nav-control {
+    display: flex;
+    background-color:  rgb(50, 21, 60) ;
+    height: 78px;
+    width: 100%;
+    position: fixed;
+    transition: 0.5s;
+    z-index: 6;
+}
+
+.nav-control h2 {
+    margin-left: 80px;
+    font-family: poppins;
+    letter-spacing: 0.5px;
+}
+
+.nav-a {
+    margin-left: 445px;
+    margin-top: 30px;
+
+}
+
+.nav-a a {
+    margin-left: 38px;
+    text-decoration: none;
+    font-family: poppins;
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    letter-spacing: 0.6px;
+}
+
+.nav-a a:active {
+    color: #c2da1b;
+}
+
+
+
+/* .nav-a a:hover {
+    border-bottom: solid 2px black;
+} */
+
+.header-log {
+    margin-left: 100px;
+    margin-top: 33px;
+
+}
+
+.header-log a, .header-sign a {
+    color: rgb(255, 255, 255);
+    opacity: 70%;
+    transition: 0.4s;
+}
+
+.header-sign {
+    margin-left: 40px;
+    margin-top: 33px;
+
+}
+
+.header-log a:hover, .header-sign a:hover {
+    opacity: 100%;
+    transition: 0.4s;
+}
+
+.header-char {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.header-char h1 {
+    line-height: 1;
+    font-family: poppins;
+    color: rgb(51, 51, 51);
+    font-size: 36px;
+}
+
+.header-char p {
+    font-family: poppins;
+    font-size: 13px;
+    letter-spacing: 0.3px;
+}
+
+.choose {
+    display: flex;
+    margin-top: 70px;
+}
+
+.mizuhara-column {
+    background-color: #f04141;
+    padding: 17px 21px 40px 21px;
+    border-radius: 9px;
+}
+
+.mizuhara-column, .ruka-column {
+    margin-left: 40px;
+}
+
+.desk-column-mizuhara a, .desk-column-ruka a {
+    text-decoration: none;
+    color: white;
+    font-family: poppins;
+    background-color: rgb(63, 61, 61);
+    padding: 5px 11px 5px 11px;
+    border-radius: 5px;
+    font-size: 14px;
+    letter-spacing: 0.7px;
+    position: relative;
+    top: 10px;
+}
+
+.mizuhara-column img, .ruka-column img {
+    width: 200px;
+    margin-left: 180px;
+    border-radius: 8px;
+    margin-top: 8px;
+}
+
+.mizuhara-column img {
+    margin-left: 210px;
+}
+
+.desk-column-mizuhara h2, .desk-column-ruka h2 {
+    font-family: poppins;
+    line-height: 1.3;
+    text-align: center;
+    color: whitesmoke;
+    letter-spacing: 0.4px;
+}
+
+.desk-column-mizuhara p, .desk-column-ruka p {
+    font-family: opp;
+    font-size: 12px;
+    letter-spacing: 0.3px;
+    color: rgb(248, 248, 248);
+
+}
+
+.kualifikasi1 p, .kualifikasi2 p  {
+    line-height: 1.3;
+    font-family: poppins;
+    color: rgb(248, 248, 248);
+}
+
+.ruka-column {
+    background-color: #2FA4FF;
+    padding: 17px 21px 7px 21px;
+    border-radius: 9px;
+}
+
+
+
+
+
+
+
+.choose2 {
+    display: flex;
+    margin-top: 70px;
+}
+
+.mami-column {
+    background-color: #fcbf4e;
+    padding: 17px 21px 40px 21px;
+    border-radius: 9px;
+}
+
+.mami-column, .sumi-column {
+    margin-left: 40px;
+}
+
+.desk-column-mami a, .desk-column-sumi a {
+    text-decoration: none;
+    color: white;
+    font-family: poppins;
+    background-color: rgb(63, 61, 61);
+    padding: 5px 11px 5px 11px;
+    border-radius: 5px;
+    font-size: 14px;
+    letter-spacing: 0.7px;
+    position: relative;
+    top: 10px;
+}
+
+.mami-column img, .sumi-column img {
+    width: 200px;
+    margin-left: 180px;
+    border-radius: 8px;
+    margin-top: 8px;
+}
+
+.mami-column img {
+    margin-left: 210px;
+}
+
+.desk-column-mami h2, .desk-column-sumi h2 {
+    font-family: poppins;
+    line-height: 1.3;
+    text-align: center;
+    color: whitesmoke;
+    letter-spacing: 0.4px;
+}
+
+.desk-column-mami p, .desk-column-sumi p {
+    font-family: opp;
+    font-size: 12px;
+    letter-spacing: 0.3px;
+    color: rgb(248, 248, 248);
+
+}
+
+.kualifikasi3 p, .kualifikasi4 p  {
+    line-height: 1.3;
+    font-family: poppins;
+    color: rgb(248, 248, 248);
+}
+
+.sumi-column {
+    background-color: #ff5aa1;
+    padding: 17px 21px 7px 21px;
+    border-radius: 9px;
+}
+
+.mizuhara-column, .ruka-column, .mami-column, .sumi-column {
+    transition: 0.5s;
+}
+
+
+.mizuhara-column:hover, .ruka-column:hover, .mami-column:hover, .sumi-column:hover {
+    transform: scale(1.04);
+    transition: 0.5s;
+}
+
+.see-more a {
+    margin-left: 620px;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(238, 238, 238);
+    margin-top: 130px;
+    font-family: opp;
+    font-size: 13px;
+    background-color: rgb(63, 61, 61);
+    padding: 6px 12px 6px 12px;
+    border-radius: 5px;
+    letter-spacing: 0.5px;
+    position: relative;
+    top: 40px;
+}
+
+.see-more a:hover {
+    background-color: rgb(51, 50, 50);
+    transition: 0.5s;
+}
+
+.body-desk-col {
+    background-color: white;
+    margin-top: 90px;
+    width: 1170px;
+    margin-left: 90px;
+    height: 390px;
+    border-radius: 8px;
+}
+
+.body-desk-col h1 {
+    text-align: center;
+    font-family: poppins;
+    font-size: 31px;
+    letter-spacing: 0.5px;
+    padding-top: 30px;
+}
+
+.column-all {
+    display: flex;
+    margin-top: 30px;
+}
+
+.column1, .column2, .column3 {
+    text-align: center;
+    margin-left: 29px;
+}
+
+.column1 h3, .column2 h3, .column3 h3 {
+    color: #2FA4FF;
+    font-size: 39px;
+} 
+
+.column1 h2, .column2 h2, .column3 h2 {
+    font-family: poppins;
+    font-size: 21px;
+    letter-spacing: 0.5px;
+}
+
+.column1 p, .column2 p, .column3 p {
+    font-family: opp;
+    font-size: 12px;
+    letter-spacing: 0.4px;
+}
+
+.desk-sinopsis {
+    display: flex;
+    margin-top: 70px;
+}
+
+.img-sinop img {
+    width: 600px;
+    border-radius: 8px;
+    margin-left: 70px;
+}
+
+.desk-text-sin {
+    margin-left: 64px;
+}
+
+.desk-text-sin h1 {
+    font-family: poppins;
+    font-size: 33px;
+    line-height: 1.3;
+}
+
+.desk-text-sin span {
+    color: #f04141;
+}
+
+.desk-text-sin h3 {
+    font-family: poppins;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    line-height: 0.7;
+}
+
+.desk-text-sin p {
+    font-family: opp;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+}
+
+.desk-text-sin a {
+    text-decoration: none;
+    color: black;
+    font-family: opp;
+    font-size: 12px;
+    margin-left: 10px;
+    border: solid 1px #fcbf4e;
+    border-radius: 4px;
+    padding: 1px 6px 1px 6px;
+    letter-spacing: 0.3px;
+}
+
+.showmoresi a {
+    margin-left: 2px;
+    font-size: 13px;
+    font-family: poppins;
+    border: solid 1px #fc4e4e;
+    padding: 3px 6px 3px 6px;
+    position: relative;
+    top: 15px;
+}
+
+.footer p {
+    text-align: center;
+    margin-top: 80px;
+    font-family: opp;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+}
